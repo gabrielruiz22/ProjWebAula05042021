@@ -68,7 +68,7 @@
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GVFerramenta" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" OnSelectedIndexChanged="Page_Load">
+        <asp:GridView ID="GVFerramenta" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" OnSelectedIndexChanged="Page_Load" Width="153px">
             <AlternatingRowStyle BackColor="White" />
             <EditRowStyle BackColor="#2461BF" />
             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />

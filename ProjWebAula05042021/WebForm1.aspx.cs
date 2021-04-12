@@ -23,6 +23,10 @@ namespace ProjWebAula05042021
             if (new FerramentaDB().Insert(f1))
             {
                 LblMsg.Text = "Ferramenta inserida com sucesso!";
+                TxtDescricao.Text = "";
+                TxtMarca.Text = "";
+                TxtTipo.Text = "";
+                TxtPreco.Text = "";
                 LoadGrid();
             }
             else
